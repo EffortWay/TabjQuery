@@ -19,13 +19,18 @@
     background: #fff;
     color: #000;
 }
-.tab-menu ul li:hover{
+.tab-menu ul li:hover,
+.tab-menu ul li.active{
 	background: #000;
 	color: #fff;
 }
 .contain-items{
 	display: none;
 }
+.contain-items.tab-1{
+	display: block;
+}
+
 .contain-items h3{
 	padding: 15px 0 15px 30px;
 	background: #d8d8d8;
